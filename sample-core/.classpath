@@ -1,9 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-  <classpathentry output=".target/scala-2.9.1/classes" path="src/main/scala" kind="src"></classpathentry>
-  <classpathentry output=".target/scala-2.9.1/classes" path="src/main/resources" kind="src"></classpathentry>
-  <classpathentry output=".target/scala-2.9.1/test-classes" path="src/test/scala" kind="src"></classpathentry>
-  <classpathentry output=".target/scala-2.9.1/test-classes" path="src/test/resources" kind="src"></classpathentry>
-  <classpathentry path="org.scala-ide.sdt.launching.SCALA_CONTAINER" kind="con"></classpathentry>
-  <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"></classpathentry>
-  <classpathentry path=".target/scala-2.9.1/classes" kind="output"></classpathentry>
+	<classpathentry kind="src" output=".target/scala-2.9.1/classes" path="src/main/scala"/>
+	<classpathentry kind="src" output=".target/scala-2.9.1/classes" path="src/main/resources"/>
+	<classpathentry kind="src" output=".target/scala-2.9.1/test-classes" path="src/test/scala"/>
+	<classpathentry kind="src" output=".target/scala-2.9.1/test-classes" path="src/test/resources"/>
+	<classpathentry kind="lib" path="/Users/jerolba/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.6.4.jar" sourcepath="/Users/jerolba/.m2/repository/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/jerolba/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=".target/scala-2.9.1/classes"/>
 </classpath>

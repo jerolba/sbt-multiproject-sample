@@ -1,7 +1,9 @@
 package com.funius.sample
+import org.slf4j.impl.SimpleLoggerFactory
 
-object HelloWorld extends App{
+object HelloWorld extends App{ 
 
-    println(new EchoService().echo("jerolba"))
+    val echoResult=new EchoService().echo("jerolba")
+    new SimpleLoggerFactory().getLogger("echo").info(echoResult)
     
 }

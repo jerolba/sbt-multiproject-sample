@@ -3,6 +3,8 @@
   <classpathentry output=".target/scala-2.9.1/classes" path="src/main/resources" kind="src"></classpathentry>
   <classpathentry output=".target/scala-2.9.1/test-classes" path="src/test/scala" kind="src"></classpathentry>
   <classpathentry output=".target/scala-2.9.1/test-classes" path="src/test/resources" kind="src"></classpathentry>
+  <classpathentry path="/Users/jerolba/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.6.4.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jerolba/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.4.jar" kind="lib"></classpathentry>
   <classpathentry exported="true" path="/sample-core" kind="src" combineaccessrules="false"></classpathentry>
   <classpathentry path="org.scala-ide.sdt.launching.SCALA_CONTAINER" kind="con"></classpathentry>
   <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"></classpathentry>

@@ -22,13 +22,15 @@ object MultiProjectSampleBuild extends Build {
             id = "sample-core", 
             base = file("sample-core"),
             settings = buildSettings ++ Seq(
-            			description := "Example of a multiproject app. Core project"
+            			description := "Example of a multiproject app. Core project",
+            			libraryDependencies ++= Seq("org.slf4j" % "slf4j-simple" % "1.6.4")
             		)
          )
 
     lazy val sample_db = Project(
             id = "sample-db", 
             base = file("sample-db"), 
+            dependencies = Seq(sample_core),
             settings = buildSettings ++ Seq(
             			description := "Example of a multiproject app. Dependent project"
             		)
